@@ -1,0 +1,7 @@
+/* HistoryTab.css */
+.history-tab {
+    background-color: #3e4163;
+    height: 100vh; /* Expands till the screen height */
+    width: 25vw;
+  }
+  

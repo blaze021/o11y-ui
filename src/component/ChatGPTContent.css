@@ -1,0 +1,72 @@
+/* ChatGPTContent.css */
+.chatgpt-content {
+    background-color: #fff;
+    padding: 20px;
+    height: calc(100vh - 60px); /* 60px accounts for the height of the Navbar */
+    overflow-y: auto; /* Enable scrolling if content overflows */
+    display: flex;
+    width: 75vw;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .chat-history {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Enable scrolling if content overflows */
+    padding: 10px; /* Add padding to the chat history container */
+    max-height: 70%; /* Set max-height for the chat history to occupy 70% of the container height */
+  }
+  
+  .message {
+    padding: 8px;
+    border-radius: 4px;
+    margin: 4px;
+  }
+  
+  .user {
+    background-color: #f0f0f0;
+  }
+  
+  .bot {
+    background-color: #def3d8;
+  }
+  
+  .input-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type='text'] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    width: 100vw;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px; /* Add right margin for spacing */
+    max-width: calc(100% - 80px); /* Set max-width to prevent it from crossing the screen width */
+  }
+  
+  .send-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transform: rotate(90deg); /* Change the rotation to 90 degrees for sideways button */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .send-button:hover {
+    background-color: #0056b3;
+  }
+  
