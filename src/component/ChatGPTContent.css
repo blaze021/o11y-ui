@@ -58,7 +58,7 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    transform: rotate(90deg); /* Change the rotation to 90 degrees for sideways button */
+    /* transform: rotate(90deg); Change the rotation to 90 degrees for sideways button */
     width: 40px;
     height: 40px;
     display: flex;
